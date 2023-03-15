@@ -56,7 +56,7 @@ def parse_soup(data, currency_list):
 
 if __name__ == '__main__':
 
-    table = 'cp_currency_curs'
+    table = 'cp_currency_rate'
 
     today = datetime.now()
     yesterday = today - timedelta(days = 1)
